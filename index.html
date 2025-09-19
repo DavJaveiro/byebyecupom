@@ -13,14 +13,16 @@
 
 <body class="antialiased bg-slate-50">
 
-    <header class="bg-white/80 backdrop-blur-lg sticky top-0 z-50 shadow-sm">
+       <header class="bg-white/80 backdrop-blur-lg sticky top-0 z-50 shadow-sm">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
             <div>
-                 <a href="#">
-                    <img src="assets/icons/logo.svg" alt="">
+                <a href="#">
+                    <!-- Placeholder for logo.svg -->
+                    <span class="text-2xl font-bold text-blue-600">ByeBye Cupom!</span>
                 </a>
             </div>
             <div class="hidden md:flex items-center space-x-8">
+                <a href="#sobre-nos" class="nav-link text-slate-600 font-medium">Sobre Nós</a>
                 <a href="#solucao" class="nav-link text-slate-600 font-medium">Solução</a>
                 <a href="#vantagens" class="nav-link text-slate-600 font-medium">Vantagens</a>
                 <a href="#integracao" class="nav-link text-slate-600 font-medium">Tecnologia</a>
@@ -38,10 +40,12 @@
             </button>
         </nav>
         <div id="mobile-menu" class="hidden md:hidden px-6 pt-2 pb-4">
-            <a href="#solucao" class="block py-2 text-slate-600 font-medium mobile-nav-link">Solução</a>
-            <a href="#vantagens" class="block py-2 text-slate-600 font-medium mobile-nav-link">Vantagens</a>
-            <a href="#integracao" class="block py-2 text-slate-600 font-medium mobile-nav-link">Integração</a>
-            <a href="#contato" class="block py-2 text-slate-600 font-medium mobile-nav-link">Contato</a>
+            <a href="#sobre-nos" class="block py-2 rounded-md px-3 text-slate-600 font-medium mobile-nav-link">Sobre Nós</a>
+            <a href="#solucao" class="block py-2 rounded-md px-3 text-slate-600 font-medium mobile-nav-link">Solução</a>
+            <a href="#vantagens" class="block py-2 rounded-md px-3 text-slate-600 font-medium mobile-nav-link">Vantagens</a>
+            <a href="#integracao" class="block py-2 rounded-md px-3 text-slate-600 font-medium mobile-nav-link">Tecnologia</a>
+             <a href="#conformidade" class="block py-2 rounded-md px-3 text-slate-600 font-medium mobile-nav-link">Conformidade</a>
+            <a href="#contato" class="block py-2 rounded-md px-3 text-slate-600 font-medium mobile-nav-link">Contato</a>
         </div>
     </header>
 
@@ -59,6 +63,30 @@
                     class="bg-blue-600 text-white font-bold py-4 px-8 rounded-lg text-lg cta-button hover:bg-blue-700">
                     Quero modernizar meu caixa
                 </a>
+            </div>
+        </section>
+
+        <section id="sobre-nos" class="py-20 md:py-28 bg-white scroll-mt-20">
+            <div class="container mx-auto px-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 items-center">
+                    
+                    <div class="order-last md:order-first">
+                        <div class="relative rounded-lg shadow-xl overflow-hidden">
+                             <img src="img/sobre-nos.jpg" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="text-left">
+                        <span class="text-sm font-bold tracking-wider uppercase text-blue-600">Sobre Nós</span>
+                        <h2 class="text-3xl md:text-4xl font-extrabold text-slate-800 mt-2 mb-6">Revolucionando a experiência no caixa</h2>
+                        <p class="text-lg text-slate-600 leading-relaxed mb-4">
+                            Na ByeBye Cupom!, somos pioneiros em transformar uma das interações mais rotineiras e, muitas vezes, ineficientes do varejo: a emissão do cupom fiscal. Nascemos da convicção de que o futuro é digital, eficiente e sustentável.
+                        </p>
+                         <p class="text-lg text-slate-600 leading-relaxed">
+                            Nossa missão é clara: substituir o cupom de papel por uma experiência digital instantânea e segura via QR Code. Fornecemos a infraestrutura tecnológica que permite aos desenvolvedores de Ponto de Venda (PDV) e, por extensão, aos varejistas, oferecerem uma solução moderna, em total conformidade com a legislação brasileira.
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
 
