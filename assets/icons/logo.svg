@@ -1,0 +1,33 @@
+<svg width="300" height="60" viewBox="0 0 300 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800display=swap');
+        .logo-text {
+            font-family: 'Inter', sans-serif;
+            font-weight: 800;
+            font-size: 24px;
+        }
+    </style>
+
+    <g id="qr-icon" transform="translate(-94, 0)">
+        <rect x="94" y="14" width="40" height="40" rx="4" fill="#3B82F6"/>
+        <rect x="99" y="19" width="4.8" height="4.8" fill="white"/>
+        <rect x="109.8" y="19" width="4.8" height="4.8" fill="white"/>
+        <rect x="115.2" y="19" width="4.8" height="4.8" fill="white"/>
+        <rect x="99" y="24.4" width="4.8" height="4.8" fill="white"/>
+        <rect x="104.4" y="24.4" width="4.8" height="4.8" fill="white"/>
+        <rect x="125.8" y="24.4" width="4.8" height="4.8" fill="white"/>
+        <rect x="104.4" y="29.8" width="4.8" height="4.8" fill="white"/>
+        <rect x="115.2" y="29.8" width="4.8" height="4.8" fill="white"/>
+        <rect x="120.6" y="29.8" width="4.8" height="4.8" fill="white"/>
+        <rect x="99" y="35.2" width="4.8" height="4.8" fill="white"/>
+        <rect x="109.8" y="35.2" width="4.8" height="4.8" fill="white"/>
+        <rect x="125.8" y="35.2" width="4.8" height="4.8" fill="white"/>
+        <rect x="104.4" y="40.6" width="4.8" height="4.8" fill="white"/>
+        <rect x="115.2" y="40.6" width="4.8" height="4.8" fill="white"/>
+    </g>
+    
+    <text x="52" y="42" class="logo-text">
+        <tspan fill="#1E293B">ByeBye</tspan>
+        <tspan fill="#2563EB" dx="-5">Cupom!</tspan>
+    </text>
+</svg>
