@@ -1,92 +1,103 @@
-ByeBye Cupom!
-A revolução do cupom fiscal. Checkout instantâneo, digital e ecológico.
-📄 Sumário
 
-🤯O Problema
+<img width="792" height="256" alt="Gemini_Generated_Image_kjucv4kjucv4kjuc" src="https://github.com/user-attachments/assets/1409b871-9cb3-4758-a9f6-1f5bf18167fb" />
 
-💡A Solução: ByeBye Cupom!
+# ByeBye Cupom!
 
-✨ Funcionalidades Principais
+*A revolução do cupom fiscal: checkout instantâneo, digital e ecológico.*
 
-🚀 Como Funciona
+---
 
-🛠️ Arquitetura e Integração
+## 📑 Sumário
 
-🗺️ Roadmap Futuro
+* 🤯 O Problema
+* 💡 A Solução
+* ✨ Funcionalidades
+* 🚀 Como Funciona
+* 🛠️ Arquitetura e Integração
+* 🗺️ Roadmap
+* 🤝 Contribuição
+* 📜 Licença
 
-🤝 Como Contribuir
+---
 
-📜 Licença
+## 🤯 O Problema
 
-🤯 O Problema
-No varejo físico, a etapa final da compra — a emissão do cupom fiscal — ainda é um grande gargalo. Lojas e clientes enfrentam diariamente problemas como:
+No varejo físico, a emissão do cupom fiscal ainda é um grande gargalo.
+Lojas e clientes enfrentam diariamente:
 
-Lentidão: Impressoras fiscais que demoram para processar e imprimir, gerando filas e insatisfação.
+* ⏳ **Lentidão:** Impressoras fiscais demoradas gerando filas.
+* 💸 **Custos Elevados:** Bobinas de papel, manutenção e trocas constantes.
+* 🌳 **Impacto Ambiental:** Desperdício de papel, quase sempre descartado imediatamente.
+* 😓 **Inconveniência:** Cupons de papel que amassam, apagam e se perdem facilmente.
 
-Custos Elevados: Gastos contínuos com bobinas de papel térmico, tinta, manutenção e troca de impressoras.
+---
 
-Impacto Ambiental: Desperdício massivo de papel, que na maioria das vezes é descartado imediatamente pelo consumidor.
+## 💡 A Solução: ByeBye Cupom!
 
-Inconveniência para o Cliente: Cupons de papel que amassam, apagam com o tempo e são fáceis de perder, dificultando o controle de despesas e o acionamento de garantias.
+O **ByeBye Cupom!** é uma plataforma **SaaS** que substitui o cupom fiscal em papel por uma versão **100% digital** (NFC-e).
+Ao finalizar a compra, o cliente acessa o documento escaneando um **QR Code** no caixa.
 
-##💡 A Solução: ByeBye Cupom!
+✅ Mais rápido
+✅ Mais barato
+✅ Sustentável
+✅ Conveniente
 
-ByeBye Cupom! é uma plataforma (SaaS) que digitaliza e moderniza a emissão de cupons fiscais (NFC-e). Em vez de imprimir um longo recibo em papel, nosso sistema gera um cupom fiscal digital instantaneamente, que o cliente acessa escaneando um QR Code com seu celular.
+---
 
-O resultado é um checkout mais rápido, uma operação mais econômica e sustentável para o lojista, e uma experiência muito mais conveniente para o consumidor.
+## ✨ Funcionalidades
 
-✨ Funcionalidades Principais
-Para o Varejista:
-💰 Redução de Custos Operacionais: Elimine despesas com suprimentos e manutenção de impressoras fiscais.
+### Para o Varejista
 
-⚡ Checkout Expresso: Acelere o fluxo de caixa e reduza o tempo de espera nas filas.
+* 💰 **Redução de Custos:** elimine papel, tinta e manutenção.
+* ⚡ **Checkout Expresso:** fluxo de caixa mais ágil.
+* 🌍 **Posicionamento Sustentável:** modernize sua marca.
+* 📊 **Conformidade Fiscal:** emissão dentro das normas da SEFAZ + LGPD.
 
-🌍 Marca Sustentável: Posicione seu negócio como uma empresa moderna e ecologicamente consciente.
+### Para o Cliente
 
-📊 Total Conformidade: Emissão de documentos fiscais com validade jurídica, seguindo todas as normas da SEFAZ e a LGPD.
+* 📱 **Cupom Digital em PDF:** direto no celular.
+* 📁 **Organização:** fácil gestão de despesas, garantias e devoluções.
+* ⏱️ **Agilidade no Caixa:** menos espera, mais praticidade.
 
-Para o Cliente Final:
-📱 Conveniência Digital: Receba e armazene o cupom fiscal em PDF diretamente no celular.
+---
 
-📁 Organização e Controle: Facilite a gestão de despesas pessoais, garantias e devoluções.
+## 🚀 Como Funciona
 
-⏱️ Experiência de Compra Ágil: Menos tempo no caixa, mais tempo para o que importa.
+1. **Venda Finalizada:** operador conclui a compra no PDV.
+2. **API Acionada:** dados enviados ao ByeBye Cupom!.
+3. **Cupom Gerado:** NFC-e validada na SEFAZ e criada em milissegundos.
+4. **QR Code na Tela:** exibido para o cliente no caixa ou display.
+5. **Cliente Escaneia:** faz o download imediato do PDF.
 
-🚀 Como Funciona
-Venda Finalizada: O operador de caixa finaliza a compra no sistema de Ponto de Venda (PDV) atual.
+---
 
-API Acionada: O PDV envia os dados da venda para a API do ByeBye Cupom!.
+## 🛠️ Arquitetura e Integração
 
-Cupom Gerado: Nossa plataforma valida as informações, gera a NFC-e junto à SEFAZ e cria o cupom digital em milissegundos.
+* **API-First:** RESTful, simples e flexível.
+* **Segurança:** comunicação HTTPS + LGPD compliance.
+* **Alta Disponibilidade:** infraestrutura em nuvem escalável e resiliente.
 
-QR Code na Tela: Um QR Code é exibido na tela do caixa ou em um display voltado para o cliente.
+---
 
-Cliente Escaneia e Salva: O cliente escaneia o código com a câmera do celular e faz o download do cupom em PDF. Simples assim!
+## 🗺️ Roadmap
 
-🛠️ Arquitetura e Integração
-O ByeBye Cupom! foi construído com uma mentalidade API-first, garantindo uma integração simples e flexível com qualquer sistema de PDV moderno.
+* [ ] Dashboard para Varejistas (análises e insights).
+* [ ] Portal do Cliente (histórico de cupons).
+* [ ] Integração com Open Finance.
+* [ ] Programa de Fidelidade / Cashback.
 
-API RESTful: Oferecemos uma API robusta e bem documentada para que a integração seja rápida e intuitiva.
+---
 
-Segurança: Todas as comunicações são criptografadas (HTTPS) e os dados são tratados em conformidade com os rigorosos padrões da LGPD.
+## 🤝 Contribuição
 
-Alta Disponibilidade: Infraestrutura em nuvem escalável para garantir performance e disponibilidade, mesmo nos horários de pico.
+O projeto está em fase inicial.
+Quer contribuir?
 
-🗺️ Roadmap Futuro
-Estamos sempre evoluindo. Nossos próximos passos incluem:
+* Reporte bugs ou sugira melhorias abrindo uma **Issue**.
+* Em breve, abriremos para PRs da comunidade.
 
-[ ] Dashboard de Análise: Painel para o varejista com insights sobre vendas e emissões.
+---
 
-[ ] Portal do Cliente: Área para o consumidor consultar todo o seu histórico de cupons.
+## 📜 Licença
 
-[ ] Integração com Open Finance: Explorar a possibilidade de atrelar o cupom diretamente ao extrato bancário do cliente, com seu consentimento.
-
-[ ] Programa de Fidelidade: Ferramentas para criação de programas de cashback e fidelidade baseados nos cupons digitais.
-
-🤝 Como Contribuir
-Ainda estamos nas fases iniciais, mas planejamos abrir o projeto para contribuições. Se você tem interesse em participar, fique de olho neste repositório!
-
-Por enquanto, para reportar bugs ou sugerir funcionalidades, por favor, abra uma Issue.
-
-📜 Licença
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Este projeto está sob a **Licença MIT**. Consulte o arquivo [LICENSE](./LICENSE).
