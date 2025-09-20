@@ -1,7 +1,7 @@
 <svg 
     xmlns="http://www.w3.org/2000/svg" 
     viewBox="0 0 240 50" 
-    width="180" 
+    width="200" 
     height="38" 
     preserveAspectRatio="xMidYMid meet">
 
@@ -21,7 +21,7 @@
     
     <!-- Texto -->
     <text x="52" y="37" class="logo-text">
-        <tspan fill="#1E293B" dx="-6">ByeBye</tspan>
-        <tspan fill="#2563EB" dx="-9">Cupom!</tspan>
+        <tspan fill="#1E293B" dx="-2">ByeBye</tspan>
+        <tspan fill="#2563EB" dx="-6">Cupom!</tspan>
     </text>
 </svg>
