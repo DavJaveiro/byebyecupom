@@ -14,8 +14,8 @@
     </g>
     
     <!-- Texto -->
-    <text x="52" y="30" class="logo-text">
-        <tspan fill="#1E293B" dx="-4">ByeBye</tspan>
-        <tspan fill="#2563EB" dx="-5">Cupom!</tspan>
+    <text x="52" y="37" class="logo-text">
+        <tspan fill="#1E293B" dx="-6">ByeBye</tspan>
+        <tspan fill="#2563EB" dx="-9">Cupom!</tspan>
     </text>
 </svg>
