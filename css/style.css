@@ -8,10 +8,10 @@ body {
   background-color: #f8fafc;
   background-image: radial-gradient(
       circle at top right,
-      #bfdbfe,
+      #a0d1f3,
       transparent 40%
     ),
-    radial-gradient(circle at bottom left, #ecfccb, transparent 50%);
+    radial-gradient(circle at bottom left, #a0d1f3, transparent 50%);
   position: relative;
 }
 
@@ -21,10 +21,10 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 45px; 
+  height: 40px; 
   background: linear-gradient(
     to top,
-    #ffffff 20%,
+    #ffffff 10%,
 
     /* Cor de fundo da PRÓXIMA seção */ 
     rgba(255, 255, 255, 0)
